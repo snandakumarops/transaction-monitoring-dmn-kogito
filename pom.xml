@@ -17,7 +17,7 @@
       <dependency>
         <groupId>org.kie.kogito</groupId>
         <artifactId>kogito-quarkus-bom</artifactId>
-        <version>1.5.0.redhat-00004</version>
+        <version>${project.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
