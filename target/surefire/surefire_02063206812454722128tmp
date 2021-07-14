@@ -1,0 +1,18 @@
+#surefire_0
+#Thu Jun 24 12:22:33 EDT 2021
+tests.category=
+idea.version=2020.2
+container.image.kafka=confluentinc/cp-kafka\:5.4.3
+user.dir=/home/sadhana/demos/kogito/kogito-examples/dmn-event-driven-quarkus/target/test-run
+container.image.keycloak=jboss/keycloak\:11.0.3
+maven.settings=/home/sadhana/.m2/settings.xml
+enable.resource.infinispan=
+native.image.path=/home/sadhana/demos/kogito/kogito-examples/dmn-event-driven-quarkus/target/dmn-event-driven-quarkus-runner
+enable.resource.mongodb=
+enable.resource.kafka=
+basedir=/home/sadhana/demos/kogito/kogito-examples/dmn-event-driven-quarkus
+java.util.logging.manager=org.jboss.logmanager.LogManager
+container.image.infinispan=infinispan/server\:11.0.4.Final
+maven.repo.local=/home/sadhana/.m2/repository
+quarkus.http.test-port=0
+localRepository=/home/sadhana/.m2/repository
