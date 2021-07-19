@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c8167767-edcf-4ba9-a73b-f5224e4df2d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dmn-event-driven-quarkus-dev.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/dmnDefinitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/dmnDefinitions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TransactionMonitoringDMN.dmn" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TransactionMonitoringDMN.dmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/https_58_47_47kiegroup_46org_47dmn_47__EED47FB5_458A7C_4544F3_45A786_45563FD2DAF015/TransactionMonitoringDMN.dmn_nologic" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/https_58_47_47kiegroup_46org_47dmn_47__EED47FB5_458A7C_4544F3_45A786_45563FD2DAF015/TransactionMonitoringDMN.dmn_nologic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kie/kogito/app/HotReloadSupportClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kie/kogito/app/HotReloadSupportClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/kogito/org/kie/kogito/app/HotReloadSupportClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/kogito/org/kie/kogito/app/HotReloadSupportClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/quarkus/bootstrap/dev-app-model.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/quarkus/bootstrap/dev-app-model.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ecommerce-quarkus-ui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../kamelk/camel-k-examples" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
