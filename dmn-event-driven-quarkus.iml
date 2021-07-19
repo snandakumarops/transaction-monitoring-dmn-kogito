@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -19,13 +19,6 @@
     <orderEntry type="library" name="Maven: net.minidev:json-smart:2.3" level="project" />
     <orderEntry type="library" name="Maven: net.minidev:accessors-smart:1.2" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-http:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-security-runtime-spi:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.vertx:vertx-web:3.9.5" level="project" />
-    <orderEntry type="library" name="Maven: io.vertx:vertx-web-common:3.9.5" level="project" />
-    <orderEntry type="library" name="Maven: io.vertx:vertx-auth-common:3.9.5" level="project" />
-    <orderEntry type="library" name="Maven: io.vertx:vertx-bridge-common:3.9.5" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy-server-common:1.11.5.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy-common:1.11.5.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-core:4.5.9.Final" level="project" />
@@ -59,7 +52,6 @@
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-tree:9.0" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-analysis:9.0" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-undertow:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus.security:quarkus-security:1.1.3.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-servlet:3.0.18.Final" level="project" />
     <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:4.0.3" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-vertx-backend:3.0.18.Final" level="project" />
@@ -113,6 +105,46 @@
     <orderEntry type="library" name="Maven: org.drools:drools-canonical-model:7.53.1.Final" level="project" />
     <orderEntry type="library" name="Maven: org.drools:drools-mvel-parser:7.53.1.Final" level="project" />
     <orderEntry type="library" name="Maven: org.drools:drools-mvel-compiler:7.53.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-health:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-health:2.2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.microprofile.health:microprofile-health-api:2.2" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-health-api:2.2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-health-provided-checks:2.2.5" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-core:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.el:jakarta.el-api:3.0.3" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.interceptor:jakarta.interceptor-api:1.2.5" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.inject:jakarta.inject-api:1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-ide-launcher:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-development-mode-spi:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.config:smallrye-config:1.10.2" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.config:smallrye-config-common:1.10.2" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-expression:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-function:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-constraint:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-classloader:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logmanager:jboss-logmanager-embedded:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging-annotations:2.2.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.threads:jboss-threads:3.2.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.slf4j:slf4j-jboss-logmanager:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.graalvm.sdk:graal-sdk:20.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.common:wildfly-common:1.5.4.Final-format-001" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-bootstrap-runner:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-http:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-security-runtime-spi:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus.security:quarkus-security:1.1.3.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-core:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-netty:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.49.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-web:3.9.5" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-web-common:3.9.5" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-auth-common:3.9.5" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-bridge-common:3.9.5" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-jsonp:1.11.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:jakarta.json:1.1.6" level="project" />
     <orderEntry type="library" name="Maven: org.kie.kogito:kogito-event-driven-decisions-quarkus-addon:1.6.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.kie.kogito:kogito-event-driven-decisions-common:1.6.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.kie.kogito:kogito-events-api:1.6.0.Final" level="project" />
@@ -126,7 +158,6 @@
     <orderEntry type="library" name="Maven: io.cloudevents:cloudevents-core:2.0.0-milestone3" level="project" />
     <orderEntry type="library" name="Maven: jakarta.ws.rs:jakarta.ws.rs-api:2.1.6" level="project" />
     <orderEntry type="library" name="Maven: io.cloudevents:cloudevents-json-jackson:2.0.0-milestone3" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-reactive-messaging-kafka:1.11.5.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-kafka-client:1.11.5.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-caffeine:1.11.5.Final" level="project" />
@@ -142,7 +173,6 @@
     <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-api:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-context-prop:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: io.grpc:grpc-context:1.34.0" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-reactive-converter-api:1.3.0" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.reactive:mutiny:0.12.5" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-jackson:1.11.5.Final" level="project" />
@@ -159,7 +189,6 @@
     <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.49.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.49.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.49.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.49.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.49.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec-socks:4.1.49.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.49.Final" level="project" />
@@ -179,15 +208,12 @@
     <orderEntry type="library" name="Maven: io.smallrye:smallrye-context-propagation-api:1.0.19" level="project" />
     <orderEntry type="library" name="Maven: io.reactivex.rxjava2:rxjava:2.2.20" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-netty:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-core:1.11.5.Final" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-axle-generator:1.3.0" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-axle-core:1.3.0" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-rx-java2:3.9.5" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-rx-gen:3.9.5" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-annotation:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-reactive-messaging-health:2.7.1" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.microprofile.health:microprofile-health-api:2.2" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-reactive-messaging-provider:2.7.1" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-reactive-messaging-api:2.7.1" level="project" />
     <orderEntry type="library" name="Maven: io.smallrye.reactive:smallrye-mutiny-vertx-core:1.3.0" level="project" />
@@ -249,8 +275,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-devtools-utilities:1.11.5.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-builder:1.11.5.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-jsonp-deployment:1.11.5.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-jsonp:1.11.5.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.glassfish:jakarta.json:1.1.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter:5.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.0" level="project" />
@@ -260,26 +284,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-params:5.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.0" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-core:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.el:jakarta.el-api:3.0.3" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.interceptor:jakarta.interceptor-api:1.2.5" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.inject:jakarta.inject-api:1.0" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-ide-launcher:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-development-mode-spi:1.11.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.config:smallrye-config:1.10.2" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.config:smallrye-config-common:1.10.2" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-expression:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-function:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-constraint:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye.common:smallrye-common-classloader:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.logmanager:jboss-logmanager-embedded:1.0.6" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging-annotations:2.2.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.threads:jboss-threads:3.2.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.slf4j:slf4j-jboss-logmanager:1.1.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.graalvm.sdk:graal-sdk:20.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.wildfly.common:wildfly-common:1.5.4.Final-format-001" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-bootstrap-runner:1.11.5.Final" level="project" />
     <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.4.14" level="project" />
     <orderEntry type="library" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
