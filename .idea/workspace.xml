@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8167767-edcf-4ba9-a73b-f5224e4df2d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_quarkus_quarkus_smallrye_health_1_11_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_smallrye_health_2_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_smallrye_health_api_2_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_smallrye_health_provided_checks_2_2_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dmn-event-driven-quarkus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmn-event-driven-quarkus.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/AmlDecisions.dmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AmlDecisions.dmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/TransactionMonitoringDMN.dmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TransactionMonitoringDMN.dmn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

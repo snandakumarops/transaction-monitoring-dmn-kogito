@@ -103,7 +103,7 @@
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_71AB3F5A-B001-403A-AF55-B4994CCBD182">
-          <dmn:text>&gt; 8000</dmn:text>
+          <dmn:text>[8000..10000]</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_C1EE80A1-9507-4750-B840-6A666571D2D9">
           <dmn:text>false</dmn:text>
