@@ -118,7 +118,7 @@
           <dmn:text>[8000..10000]</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_47993BBF-402E-423D-BF36-C488BFE4FDA3">
-          <dmn:text>Savings</dmn:text>
+          <dmn:text>"savings"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_C1EE80A1-9507-4750-B840-6A666571D2D9">
           <dmn:text>false</dmn:text>
