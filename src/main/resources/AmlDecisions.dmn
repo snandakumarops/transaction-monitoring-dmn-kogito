@@ -11,6 +11,7 @@
     <dmn:inputData href="#_A9CD89ED-96D0-461B-B4B8-629E05CAC926"/>
     <dmn:inputData href="#_63B5B448-D40A-40AC-94B6-844016EF7EBF"/>
     <dmn:inputData href="#_FF61C739-CEF5-4CD4-BCD0-2F58F4C301B6"/>
+    <dmn:inputData href="#_30A3CE68-AEB4-4E43-93B7-98DC874B01C4"/>
   </dmn:decisionService>
   <dmn:inputData id="_64899CE1-0FE5-4165-A27A-8EEF1FAFF4DF" name="Employment Update">
     <dmn:extensionElements/>
@@ -55,6 +56,9 @@
     <dmn:informationRequirement id="_F79761BD-5D65-4862-98D9-9AEE593DC06A">
       <dmn:requiredInput href="#_A9CD89ED-96D0-461B-B4B8-629E05CAC926"/>
     </dmn:informationRequirement>
+    <dmn:informationRequirement id="_8CC6CF7E-9D68-4BC5-B388-B0BAA9E999A6">
+      <dmn:requiredInput href="#_30A3CE68-AEB4-4E43-93B7-98DC874B01C4"/>
+    </dmn:informationRequirement>
     <dmn:decisionTable id="_A990714F-B649-4FEF-8310-E677CA544FD3" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
       <dmn:input id="_E34C54AB-E7E8-4FB6-8B5B-E884A4282901">
         <dmn:inputExpression id="_76C4BA18-8409-4248-9C89-913B953431A2" typeRef="number">
@@ -64,6 +68,11 @@
       <dmn:input id="_C064121D-72EB-4381-9265-B48FCF997F9D">
         <dmn:inputExpression id="_6E5529F8-EE1F-4C36-A0E1-B92C1E97BD40" typeRef="number">
           <dmn:text>Transaction Amount</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_101BA42F-FD76-4A2C-8E79-6CEDDD17E0CA">
+        <dmn:inputExpression id="_7CD10700-FCF8-4E8F-9501-E6D68797E990" typeRef="string">
+          <dmn:text>Payment Mode</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_453A85F7-124E-4A69-8983-67A006447932">
@@ -85,6 +94,9 @@
         <dmn:inputEntry id="_4822CF5B-3AFA-4C0F-9A7B-0FD564464D8D">
           <dmn:text>&gt; 5000</dmn:text>
         </dmn:inputEntry>
+        <dmn:inputEntry id="_0A3EC7CB-C877-4DCD-B159-9E6E6BA09A41">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
         <dmn:inputEntry id="_F0892ADE-9EB8-4DE9-B72E-20485C930E03">
           <dmn:text>false</dmn:text>
         </dmn:inputEntry>
@@ -105,6 +117,9 @@
         <dmn:inputEntry id="_71AB3F5A-B001-403A-AF55-B4994CCBD182">
           <dmn:text>[8000..10000]</dmn:text>
         </dmn:inputEntry>
+        <dmn:inputEntry id="_47993BBF-402E-423D-BF36-C488BFE4FDA3">
+          <dmn:text>Savings</dmn:text>
+        </dmn:inputEntry>
         <dmn:inputEntry id="_C1EE80A1-9507-4750-B840-6A666571D2D9">
           <dmn:text>false</dmn:text>
         </dmn:inputEntry>
@@ -124,6 +139,9 @@
         </dmn:inputEntry>
         <dmn:inputEntry id="_7EFFB100-4F56-43EB-B8C0-7E2750715C20">
           <dmn:text>&gt; 15000</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9FA42CBA-3214-4CB5-B8A9-D43AB6F90E8F">
+          <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_84475B1D-B9A9-418B-8046-CEC75A705DD8">
           <dmn:text>-</dmn:text>
@@ -152,6 +170,10 @@
     <dmn:extensionElements/>
     <dmn:variable id="_06E7CF93-91A7-4A26-BC72-03BE6D65283B" name="Marriage"/>
   </dmn:inputData>
+  <dmn:inputData id="_30A3CE68-AEB4-4E43-93B7-98DC874B01C4" name="Payment Mode">
+    <dmn:extensionElements/>
+    <dmn:variable id="_FB2B1551-FF3E-4122-B6F2-87E10A962499" name="Payment Mode"/>
+  </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_D533F85B-C3E5-45E5-AA41-02F4C762B63D" name="DRG">
       <di:extension>
@@ -162,6 +184,7 @@
           <kie:ComponentWidths dmnElementRef="_A990714F-B649-4FEF-8310-E677CA544FD3">
             <kie:width>50</kie:width>
             <kie:width>124</kie:width>
+            <kie:width>100</kie:width>
             <kie:width>100</kie:width>
             <kie:width>201</kie:width>
             <kie:width>100</kie:width>
@@ -255,6 +278,15 @@
         <dc:Bounds x="373" y="270" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_30A3CE68-AEB4-4E43-93B7-98DC874B01C4" dmnElementRef="_30A3CE68-AEB4-4E43-93B7-98DC874B01C4" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="201" y="237" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_834533FD-B406-4678-A0F4-0582E3607BD1" dmnElementRef="_834533FD-B406-4678-A0F4-0582E3607BD1">
         <di:waypoint x="529.5981308411215" y="306"/>
         <di:waypoint x="518" y="220"/>
@@ -282,6 +314,10 @@
       <dmndi:DMNEdge id="dmnedge-drg-_F79761BD-5D65-4862-98D9-9AEE593DC06A-AUTO-TARGET" dmnElementRef="_F79761BD-5D65-4862-98D9-9AEE593DC06A">
         <di:waypoint x="835" y="93.6842105263158"/>
         <di:waypoint x="568" y="95"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_8CC6CF7E-9D68-4BC5-B388-B0BAA9E999A6" dmnElementRef="_8CC6CF7E-9D68-4BC5-B388-B0BAA9E999A6">
+        <di:waypoint x="251" y="262"/>
+        <di:waypoint x="468" y="95"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>

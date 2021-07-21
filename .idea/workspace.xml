@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8167767-edcf-4ba9-a73b-f5224e4df2d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AmlDecisions.dmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AmlDecisions.dmn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/TransactionMonitoringDMN.dmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TransactionMonitoringDMN.dmn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
