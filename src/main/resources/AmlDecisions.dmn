@@ -70,11 +70,6 @@
           <dmn:text>Transaction Amount</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:input id="_101BA42F-FD76-4A2C-8E79-6CEDDD17E0CA">
-        <dmn:inputExpression id="_7CD10700-FCF8-4E8F-9501-E6D68797E990" typeRef="string">
-          <dmn:text>Payment Mode</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
       <dmn:input id="_453A85F7-124E-4A69-8983-67A006447932">
         <dmn:inputExpression id="_85C7541A-2899-4CB9-A035-603D8495448A" typeRef="boolean">
           <dmn:text>Life Changing Event</dmn:text>
@@ -93,9 +88,6 @@
         </dmn:inputEntry>
         <dmn:inputEntry id="_4822CF5B-3AFA-4C0F-9A7B-0FD564464D8D">
           <dmn:text>&gt; 5000</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_0A3EC7CB-C877-4DCD-B159-9E6E6BA09A41">
-          <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_F0892ADE-9EB8-4DE9-B72E-20485C930E03">
           <dmn:text>false</dmn:text>
@@ -117,9 +109,6 @@
         <dmn:inputEntry id="_71AB3F5A-B001-403A-AF55-B4994CCBD182">
           <dmn:text>[8000..10000]</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_47993BBF-402E-423D-BF36-C488BFE4FDA3">
-          <dmn:text>"savings"</dmn:text>
-        </dmn:inputEntry>
         <dmn:inputEntry id="_C1EE80A1-9507-4750-B840-6A666571D2D9">
           <dmn:text>false</dmn:text>
         </dmn:inputEntry>
@@ -139,9 +128,6 @@
         </dmn:inputEntry>
         <dmn:inputEntry id="_7EFFB100-4F56-43EB-B8C0-7E2750715C20">
           <dmn:text>&gt; 15000</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_9FA42CBA-3214-4CB5-B8A9-D43AB6F90E8F">
-          <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_84475B1D-B9A9-418B-8046-CEC75A705DD8">
           <dmn:text>-</dmn:text>
@@ -184,8 +170,7 @@
           <kie:ComponentWidths dmnElementRef="_A990714F-B649-4FEF-8310-E677CA544FD3">
             <kie:width>50</kie:width>
             <kie:width>124</kie:width>
-            <kie:width>100</kie:width>
-            <kie:width>100</kie:width>
+            <kie:width>166</kie:width>
             <kie:width>201</kie:width>
             <kie:width>100</kie:width>
             <kie:width>160</kie:width>
