@@ -120,17 +120,22 @@ Just send this payload to the configured input topic:
   "source": "SomeEventSource",
   "type": "DecisionRequest",
   "subject": "TheSubject",
-  "kogitodmnmodelname": "Traffic Violation",
-  "kogitodmnmodelnamespace": "https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF",
+  "kogitodmnmodelname": "TransactionMonitoringDMN",
+  "kogitodmnmodelnamespace": "https://kiegroup.org/dmn/_EED47FB5-8A7C-44F3-A786-563FD2DAF015",
   "data": {
-    "Driver": {
-      "Age": 25,
-      "Points": 13
-    },
-    "Violation": {
-      "Type": "speed",
-      "Actual Speed": 115,
-      "Speed Limit": 100
+    "Transaction": { "transactionAmount": 9500, 
+      "transactionCountry":"US",
+      "merchantType": "MERCH336",
+      "transactionType":"Web" ,
+      "transactionId":1626891159443,
+      "paymentMode":"savings"},		
+    "Customer": {
+      "averageTransactionAmount": 300,
+      "riskIndex": 1.7,
+      "marriage": false,
+      "jobChange": false,
+      "cityChange": false,
+      "customerId": "CUST898920"
     }
   }
 }
@@ -169,8 +174,3 @@ And you should receive something similar to this in the output topic:
 
 The `data` field contains the output context. Values of `id` fields will change, but the rest will be the same.
 
-### Other examples
-
-All the leaf subfolders of [the test events resource folder](src/test/resources/events) contain a pair of `input.json` and `output.json` files.
-
-There's one for every possible variation in the structure of the input/output events supported by the addon. Feel free to try them all.
