@@ -116,7 +116,7 @@
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_30434D32-2280-4BB3-816C-952773DBC6E1">
-          <dmn:text>"High Risk Customer and large transaction"</dmn:text>
+          <dmn:text>"Out of normal transaction - Cash Purchase"</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
