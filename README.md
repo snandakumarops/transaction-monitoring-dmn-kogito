@@ -108,9 +108,7 @@ Note: This does not yet work on Windows, GraalVM and Quarkus should be rolling o
 
 ## Example Usage
 
-Here is an example of a input event that triggers the evaluation of the [Traffic Violation](src/main/resources/Traffic%20Violation.dmn) model
-included in this example. The `data` field contains the input context.
-
+Here is an example of a input event that triggers the evaluation.
 Just send this payload to the configured input topic:
 
 ```json
