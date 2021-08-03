@@ -1,0 +1,10 @@
+apiVersion: rhpam.kiegroup.org/v1
+kind: KogitoBuild
+metadata:
+  name: transaction-monitor
+  namespace: kogito-event-driven-decisions
+spec:
+  gitSource:
+    uri: 'https://github.com/snandakumar87/transaction-monitoring-dmn-kogito'
+  runtime: quarkus
+  type: RemoteSource

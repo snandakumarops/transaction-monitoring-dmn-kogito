@@ -1,0 +1,8 @@
+apiVersion: rhpam.kiegroup.org/v1
+kind: KogitoRuntime
+metadata:
+  namespace: kogito-event-driven-decisions
+  name: transaction-monitor
+spec:
+  runtime: quarkus
+  replicas: 1
