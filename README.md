@@ -108,9 +108,7 @@ Note: This does not yet work on Windows, GraalVM and Quarkus should be rolling o
 
 ## Example Usage
 
-Here is an example of a input event that triggers the evaluation of the [Traffic Violation](src/main/resources/Traffic%20Violation.dmn) model
-included in this example. The `data` field contains the input context.
-
+Here is an example of a input event that triggers the evaluation.
 Just send this payload to the configured input topic:
 
 ```json
@@ -140,37 +138,3 @@ Just send this payload to the configured input topic:
   }
 }
 ```
-
-And you should receive something similar to this in the output topic:
-
-```json
-{
-  "specversion": "1.0",
-  "id": "d54ace84-6788-46b6-a359-b308f8b21778",
-  "source": "Traffic+Violation",
-  "type": "DecisionResponse",
-  "subject": "TheSubject",
-  "kogitodmnmodelnamespace": "https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF",
-  "kogitodmnmodelname": "Traffic Violation",
-  "data": {
-    "Violation": {
-      "Type": "speed",
-      "Speed Limit": 100,
-      "Actual Speed": 115
-    },
-    "calculateTotalPoints": "function calculateTotalPoints( driver, fine )",
-    "Driver": {
-      "Points": 13,
-      "Age": 25
-    },
-    "Fine": {
-      "Points": 3,
-      "Amount": 500
-    },
-    "Should the driver be suspended?": "No"
-  }
-}
-```
-
-The `data` field contains the output context. Values of `id` fields will change, but the rest will be the same.
-
