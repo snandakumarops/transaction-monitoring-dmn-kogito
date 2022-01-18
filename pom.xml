@@ -24,6 +24,11 @@
     </dependencies>
   </dependencyManagement>
 
+  <dependency>
+      <groupId>org.kie.kogito</groupId>
+      <artifactId>monitoring-prometheus-quarkus-addon</artifactId>
+</dependency>       
+         
   <dependencies>
     <dependency>
       <groupId>org.kie.kogito</groupId>
